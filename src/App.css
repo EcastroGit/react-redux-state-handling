@@ -1,0 +1,39 @@
+.App {
+  width: fit-content;
+  margin: auto;
+}
+.container {
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  padding: 2rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+input {
+  margin: 7px;
+}
+.input-number {
+  width: 50px;
+}
+.tag {
+  margin: 4px;
+  color: rgb(201, 112, 29);
+  font-weight: bold;
+}
+.tag2 {
+  margin: 4px;
+  color: rgb(31, 143, 100);
+  font-weight: bold;
+}
